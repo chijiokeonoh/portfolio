@@ -1,0 +1,92 @@
+.container{
+    background-color: rgb(234, 224, 224);
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    font-size: 24px;
+}
+
+span.h{
+    color: red;
+    font-size: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    background-color: white;
+    font-size: 20px;    
+    
+}
+ 
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 20px;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color:gray;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(246, 238, 228);
+    box-sizing: border-box;
+    width: auto;
+}
+
+.tag{
+    width: 40%;
+    margin: 20px 20px;
+    justify-content: center;
+    padding: 70px; 
+    height: 70vh;
+}
+
+h4{
+    color: rgb(239, 57, 57);
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    text-align: justify;
+    line-height: 1.2;    
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+.old{
+    background-color: rgb(247, 206, 177);
+}
+
+.down{
+    margin: 40px;
+}
